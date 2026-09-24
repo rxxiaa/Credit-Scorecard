@@ -5,8 +5,6 @@ A credit scorecard built in Python on the **Statlog German Credit** dataset. It 
 This repository contains the practical part of my **Bachelor's thesis** at the Bucharest University of Economic Studies (ASE), Faculty of Cybernetics, Statistics and Economic Informatics (2025).
 
 **Thesis title:** *Development and Implementation of a Banking Scorecard Model for Credit Risk Assessment*
-**Author:** Diana-Maria Lazăr
-**Supervisor:** Lect. Univ. Dr. Ionuț Nica
 
 ---
 
@@ -105,20 +103,7 @@ The rating classes were translated into two credit-decision policies:
 
 ---
 
-## Repository structure
 
-```
-Credit-Scorecard/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── Credit_Scorecard.ipynb       # full analysis, from data to scorecard
-├── outputs/
-│   └── scorecard.csv            # final points per attribute
-└── docs/
-    ├── thesis.pdf               # Bachelor's thesis (Romanian)
-    └── presentation.pdf         # defense presentation (Romanian)
-```
 
 ---
 
@@ -157,7 +142,7 @@ The code uses Romanian variable names. The main ones:
 
 | Variable | Meaning |
 |---|---|
-| `cont_curent` | checking account status |
+| `cont_curent` |  account |
 | `durata_luni` | loan duration (months) |
 | `istoric_rambursari` | credit / repayment history |
 | `scop` | loan purpose |
@@ -181,13 +166,5 @@ The code uses Romanian variable names. The main ones:
 
 ---
 
-## References
 
-- Siddiqi, N. (2017). *Intelligent Credit Scoring: Building and Implementing Better Credit Risk Scorecards*. Wiley.
-- Van Gestel, T. & Baesens, B. (2009). *Credit Risk Management: Basic Concepts*. Oxford University Press.
-- European Banking Authority (2021). *Report on the Impact of COVID-19 on the EU Banking Sector*.
-- Hofmann, H. *Statlog (German Credit Data)*. UCI Machine Learning Repository.
 
----
-
-*Academic project. The model is for educational purposes and is not intended for real credit decisions.*
