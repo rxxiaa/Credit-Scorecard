@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+toad
+matplotlib
+seaborn
+plotly
+ucimlrepo
+jupyter
